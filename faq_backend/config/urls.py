@@ -28,9 +28,9 @@ urlpatterns = [
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="My API",
+      title="AI FAQ Backend API",
       default_version='v1',
-      description="Test description",
+      description="REST API for AI FAQ bot including Q/A (RAG), search, auth, and knowledge base management.",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
