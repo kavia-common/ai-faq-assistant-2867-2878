@@ -1,0 +1,4 @@
+{
+    "command": "python manage.py test",
+    "working_directory": "/home/kavia/workspace/code-generation/ai-faq-assistant-2867-2878/faq_backend"
+}
